@@ -46,8 +46,8 @@ import java.time.Duration;
     @Test
     public void testSignUp() {
         
-        String userName = "Yelyzataa";
-        String userEmail = "bikihha@example.com";
+        String userName = "Yelyataa";
+        String userEmail = "biha@example.com";
 
         homePage.openHomePageAutoinexercise();
 
@@ -71,8 +71,8 @@ import java.time.Duration;
                     "Authorization page is not displayed!");
 
             // Ввести дані для реєстрації на першому етапі
-            String userName = "Yаgtjjdffda";
-            String userEmail = "mahddda@example.com";
+            String userName = "Yаgfda";
+            String userEmail = "mada@example.com";
 
             authorizationPage.inputNameInSignUserNameField(userName);
             authorizationPage.inputEmailInSignEmailAdress(userEmail);

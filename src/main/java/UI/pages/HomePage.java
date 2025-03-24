@@ -13,16 +13,6 @@ public class HomePage {
         this.driver = driver;
     }
 
-    public boolean isAccountCreated() {
-        try {
-            WebElement accountCreatedMessage = driver.findElement(By.xpath("//h2[contains(text(),'Account Created!')]"));
-            return accountCreatedMessage.isDisplayed();
-        } catch (NoSuchElementException e) {
-            return false;
-        }
-    }
-
-
     private WebElement headerMenuButtons(){
         return driver.findElement(By.xpath("//a[@href='/login']"));
     }
