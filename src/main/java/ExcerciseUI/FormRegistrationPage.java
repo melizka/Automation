@@ -1,4 +1,4 @@
-package UI.pages;
+package ExcerciseUI;
 
 import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
