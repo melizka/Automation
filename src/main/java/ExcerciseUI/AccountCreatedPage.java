@@ -1,4 +1,4 @@
-package UI.pages;
+package ExcerciseUI;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
@@ -20,7 +20,6 @@ public class AccountCreatedPage {
     public boolean assertIsAccountIsCreatedIsDisplayed() {
         return accountCreated().isDisplayed();
     }
-
 }
 
 

@@ -1,4 +1,4 @@
-package UI.pages;
+package ExcerciseUI;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,11 +16,11 @@ public class AuthorizationPage {
     }
 
     //elements
-    private WebElement loginEmailAdressField(){
+    private WebElement loginEmailAdressField() {
         return driver.findElement(By.xpath("//input[@data-qa='login-email']"));
     }
 
-    private WebElement loginPasswordField(){
+    private WebElement loginPasswordField() {
         return driver.findElement(By.xpath("//input[contains(@data-qa, 'login-password')]"));
     }
 
